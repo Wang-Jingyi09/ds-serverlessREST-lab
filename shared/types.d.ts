@@ -1,9 +1,9 @@
 // export type Language = 'English' | 'Frenc
 
-export type Movie =   {
+export type Movie = {
   id: number,
   backdrop_path: string,
-  genre_ids: number[ ],
+  genre_ids: number[],
   original_language: string,
   original_title: string,
   adult: boolean,
@@ -30,4 +30,3 @@ export type MovieCastMemberQueryParams = {
   roleName?: string
 }
 
- 
